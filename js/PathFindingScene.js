@@ -5,8 +5,6 @@ class PathFindingScene extends Phaser.Scene {
     player
     /** @type  {Phaser.Physics.Arcade.Sprite} */
     gun
-    /** @type  {Phaser.Physics.Arcade.StaticGroup} */
-    ammoPickup
     /** @type {Array.<Enemy>} */
     enemies = []
     /** @type {Array.<object>} */
